@@ -1,1 +1,23 @@
-{"name":"nextjs-blog","version":"1.0.0","description":"Blog built with Next.js and Markdown","main":"next.config.js","scripts":{"dev":"next dev","build":"next build","start":"next start"},"dependencies":{"next":"^14.0.0","react":"^18.2.0","react-dom":"^18.2.0","gray-matter":"^4.3.0"},"author":"leeydev <adaylete@gmail.com>","license":"MIT"}
+{
+  "name": "nextjs-blog",
+  "version": "2.0.0",
+  "description": "Blog with MDX, RSS feed, and CMS integration",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "gray-matter": "^4.3.0",
+    "remark": "^15.0.0",
+    "next-mdx-remote": "^4.4.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "@testing-library/react": "^14.1.0"
+  }
+}

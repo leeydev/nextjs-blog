@@ -1,15 +1,27 @@
 # Next.js Blog
 
-Blog application built with Next.js and Markdown.
+Feature-rich blog built with Next.js, MDX, and gray-matter.
 
 ## Features
-- Static site generation
-- Markdown support
-- SEO optimized
 
-## Installation
+- 📝 MDX support
+- 🚀 Static Site Generation
+- 📡 RSS feed
+- 🔍 SEO optimized
+- 🎨 Custom styling
+
+## Getting Started
+
 ```bash
 npm install
 npm run dev
 ```
 
+Open [http://localhost:3000](http://localhost:3000).
+
+## Build
+
+```bash
+npm run build
+npm start
+```
